@@ -1,0 +1,45 @@
+플러그인 설치
+
+1. night owl : 색 테마
+2. 파일 아이콘 테마 : material
+3. 문법 검사 : eslint, tslint
+4. 실습환경 보조 : live server
+
+webpack 교안
+https://joshua1988.github.io/webpack-guide/
+
+node js : javascript 실행 환경. 런타임
+npm : javascript 라이브러리 관리. 해당 사이트는 라이브러리 레포지토리.
+node를 설치하면, npm도 자동으로 설치된다.
+
+vscode 명령어 실행창 : ctrl + shift + p
+콘솔 실행창 : ctrl + shift + `
+
+node -v, npm -v
+
+
+npm init
+npm init -y(모든 질의에 엔터로 설정(기본값으로 설정))
+=> package.json 생성.
+
+npm install [라이브러리명] : 특정 라이브러리 설치.
+npm install jquery
+
+node_modules/jquery 폴더 생성.
+jquery/dist/jquery.js => 실제 라이브러리 내용.
+
+package.json 파일에 설치한 라이브러리 이름 및 버전이 표시.
+
+- npm의 장점
+이전 웹개발 방식의 문제점
+1. 웹페이지 어딘가에 라이브러리를 선언해도 사용할 수 있다는 유연함
+2. 그러나 라이브러리 의존성 문제 등 라이브러리 관리가 쉽지 않아짐.
+=> 라이브러리 의존성 관리가 편해진다.
+
+- npm의 두번째 장점
+이전의 경우 라이브러리 cdn을 직접 검색 후, url을 찾아 코드에 넣는 방식이었으며, 
+검색 및 코드 추가의 과정이 번거로웠으나, 
+npm은 인스톨 명령어만으로 로컬에 설치가 됨.
+
+
+
