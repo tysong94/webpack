@@ -1,0 +1,29 @@
+npm install gulp
+- 어떤 라이브러리가 의존하는 라이브러리들이 있을 경우, 
+해당 라이브러리를 설치하면 관련된 라이브러리들도 함께 설치된다.
+
+npm install gulp
+npm uninstall gulp
+npm install gulp --global
+npm i gulp -g
+
+전역설치 경로 : %USERPROFILE%\AppData\Roaming\npm\node_modules\
+%USERPROFILE% = C:\Users\tyson\ 
+
+전역설치를 하는 라이브러리 : 시스템 레벨에서 명령어를 실행하기 위한 라이브러리.
+프로젝트 경로에 설치되지 않고, 위와 같이 시스템의 경로에 설치된다.
+EX)gulp, vuecli 등.
+
+[지역설치 옵션]
+npm install vue --save-dev 
+npm i vue -D
+
+dependencies : 배포용 라이브러리. 애플리케이션 구동에 필요한 라이브러리
+-> npm install
+devDependencies : 개발용 라이브러리. 개발시 필요한 라이브러리. 개발 보조용. 빌드시에 배포되지 않음.
+-> npm install --save-dev
+
+[정리]
+npm install/i : 배포용
+npm install/i --save-dev/-D : 개발용
+npm install --global/-g : 전역.(이것도 개발용일듯.)
